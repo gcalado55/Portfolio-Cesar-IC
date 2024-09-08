@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dark-mode.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Portfolio</title>
 </head>
@@ -13,15 +13,25 @@
         <a href="#" class="logo"><span>Gabriel Calado</span></a>
     
         <ul class="nav-links">
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#experience">Experiência</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#contact">Contato</a></li>
-    
-            <i id="menu-icon" class="fa-solid fa-bars"></i>
-            <button class="visit-btn">Meu Github</button>
-            <a class="dark-mode" href="index.html"><i class="fa-solid fa-circle-half-stroke"></i></a>
+            <li>
+                <a href="#about">Sobre</a>
+            </li>
+            <li>
+                <a href="#experience">Experiência</a>
+            </li>
+            <li>
+                <a href="#projects">Projetos</a>
+            </li>
+            <li>
+                <a href="#contact">Contato</a>
+            </li>
         </ul>
+
+        <i id="menu-icon" class="fa-solid fa-bars"></i>
+        
+        <button class="visit-btn"><a href="https://github.com/gcalado55" target="_blank">
+            <a href="https://github.com/gcalado55" target="_blank">Meu Github</a>
+        </button>
     </header>
 
     <section class="about" id="about">
@@ -40,14 +50,15 @@
                 </div>
 
                 <div class="btn-group">
-                    <div class="btn">Baixar CV</div>
-                    <div class="btn">Contato</div>
+                    <div class="btn"><a href="https://drive.usercontent.google.com/download?id=1BuSCabKuvNGLqhqUYqeKZQLmkhbF3k4W&export=download&authuser=0&confirm=t&uuid=4c7aab87-4404-421f-93e2-1af55e657d47&at=AO7h07dQyRNmftZtYrzCilXQd_kL:1725838081282" target="_blank">Baixar CV</a></div>
+                    <div class="btn"><a href="https://w.app/1PfRB8" target="_blank">Contato</a></div>
                 </div>
 
                 <div class="socials">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.linkedin.com/in/gabriel-calado-b17337295/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/gcalado55" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/gabrielcaladocartaxo/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,7 +128,7 @@
                             
                             Benefícios: Alta produtividade, manutenção simplificada, escalabilidade, reutilização de código e facilidade de teste.</p>
                     <div class="btn-group">
-                        <div class="btn">Repositório</div>
+                        <div class="btn"><a href="https://github.com/gcalado55/Order-Handler" target="_blank">Repositório</a></div>
                     </div>
                 </div>
 
@@ -135,13 +146,47 @@
                             
                             Benefícios: Otimização de processos, redução de erros, aumento da eficiência, escalabilidade e facilidade de manutenção..</p>
                     <div class="btn-group">
-                        <div class="btn">Repositório</div>
+                        <div class="btn"><a href="https://github.com/gcalado55/EVENT-HANDLER-JPA" target="_blank">Repositório</a></div>
                         
                     </div>
                 </div>
 
             </div>
         </section>
+
+        <section class="contact" id="contact">
+            <div class="input-box">
+
+                <h2 class="section-title">Me contate</h2>
+
+                <div class="input">
+                    <input type="text" placeholder="g.calado.cartaxo@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <div class="btn">Submit</div>
+            </div>
+        </section>
+
+        <footer>
+
+            <ul>
+                <li>
+                    <a href="#about">Sobre</a>
+                </li>
+                <li>
+                    <a href="#experience">Experiência</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+
+            <p class="copyright">© All rights reserved</p>
+        </footer>
 
     <script src="script.js"></script>
 </body>
